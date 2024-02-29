@@ -39,13 +39,15 @@ header {
 
 .decor::after {
   position: absolute;
+  inset-inline-end: -20px;
+  inset-block-start: 9px;
+  display: block;
   content: "";
-  margin-inline-start: 3px;
-  width: 25px;
-  height: 25px;
-  background-image: url(../images/Ellipse.png);
-  background-position: center;
-  background-size: contain;
+  inline-size: 7px;
+  block-size: 7px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  box-shadow: 0 0 3px 3px var(--accent-color);
 }
 
 .decorated::before {
