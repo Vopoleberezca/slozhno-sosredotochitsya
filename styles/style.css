@@ -69,7 +69,7 @@
   block-size: 7px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  box-shadow: 0 0 3px 3px var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
 .header__theme-menu {
